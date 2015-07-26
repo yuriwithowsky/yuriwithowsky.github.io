@@ -1,0 +1,146 @@
+.container
+{
+    margin-top: 25px;
+}
+
+.author-title
+{
+    font-family: 'Georgia';
+    display: block;
+    margin: 10px 0 50px 0;
+    font-size: 18px;
+}
+
+.author-photo
+{
+    display: block;
+    background-color: #EEE;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.box-social
+{
+    display: block;
+    margin: 35px auto 60px;
+    padding: 20px 0;
+    width: 154px;
+}
+
+.box-social a.social-link
+{
+    opacity: 0.5;
+    margin: 8px;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.box-social a.social-link:hover
+{
+    opacity: 0.9;
+}
+
+.box-social .social-link img
+{
+    width: 34px;
+    height: 34px;
+}
+
+h1.post-title
+{
+    font-family:'Georgia';
+    margin: 0 0 20px 0;
+    font-size: 24px;
+}
+
+p.article
+{
+    font-family: 'Georgia';
+    font-size: 22px;
+}
+
+p.article:first-of-type:first-letter
+{
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.container-nav
+{
+    border-bottom: 1px solid #EEE;
+    font-family: 'Georgia';
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.container-nav ul.nav-links
+{
+    list-style: none;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-nav ul.nav-links li
+{
+    padding: 10px 16px;
+    margin: 0 2px;
+    float: left;
+}
+
+.container-nav .nav-links a
+{
+    color: #333;
+}
+
+.container-nav ul.nav-links a:hover li
+{
+    border-bottom: 2px solid #7bb6e8;
+}
+
+.container-nav .nav-links .current
+{
+    border-bottom: 2px solid #3594e5;
+}
+
+.thumb-min
+{
+    background-color: #EEE;
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+b
+{
+    width: 100%;
+    float: left;
+}
+
+article
+{
+    width: 100%;
+    float: left;
+    margin: 25px 0;
+}
+
+ul.pager a
+{
+    border: none;
+    border-bottom: 1px solid #EEE;
+}
+
+@media (max-width: 768px)
+{
+    .thumb-min
+    {
+        width: 100%;
+    }
+}
