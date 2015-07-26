@@ -19,6 +19,13 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    overflow: hidden;
+}
+
+.author-photo img
+{
+    width: 200px;
+    height: 200px;
 }
 
 .box-social
