@@ -2,7 +2,7 @@
 title: Yuri Withowsky
 email: yuriwithowsky@outlook.com
 baseurl: "/"
-url: "http://yuriwithowsky.github.io/"
+url: "http://yuriwithowsky.github.io"
 
 # Build settings
 markdown: kramdown
