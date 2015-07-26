@@ -5,7 +5,7 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <title>YW</title>
-    <link rel="stylesheet" href="http://yuriwithowsky.github.io//css/theme.css">
+    <link rel="stylesheet" href="{{site.url}}/css/theme.css">
 </head>
     
 <body>
@@ -18,41 +18,31 @@
                 </a>
                 <div class="box-social">
                     <a class="social-link" target="_blank" href="https://www.facebook.com/YuriWitkowsky">
-                        <img src="http://yuriwithowsky.github.io/img/facebbook.png" />
+                        <img src="{{site.url}}img/facebbook.png" />
                     </a>
                     <a class="social-link" target="_blank" href="https://br.linkedin.com/in/yuriwithowsky">
-                        <img src="http://yuriwithowsky.github.io/img/linkedin.png" />
+                        <img src="{{site.url}}img/linkedin.png" />
                     </a>
                     <a class="social-link" target="_blank" href="https://www.behance.net/YuriWithowsky">
-                        <img src="http://yuriwithowsky.github.io/img/behance.png" />
+                        <img src="{{site.url}}img/behance.png" />
                     </a>
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="container-nav">
                     <ul class="nav-links">
-                        <a href="http://yuriwithowsky.github.io//index.html">
-                            <li class="current">Home</li>
+                        <a href="{{site.url}}/index.html">
+                            <li class="{% if page.url == '/index.html' %}current{% endif %}">Home</li>
                         </a>
-                        <a href="http://yuriwithowsky.github.io//projects.html">
-                            <li class="">Projects</li>
+                        <a href="{{site.url}}/projects.html">
+                            <li class="{% if page.url == '/projects.html' %}current{% endif %}">Projects</li>
                         </a>
                         <a href="#">
-                            <li class="">Contact me</li>
+                            <li class="{% if page.url == '/contact.html' %}current{% endif %}">Contact me</li>
                         </a>
                     </ul>
                 </div>
-                <article>
-    <h1 class="post-title">Postss Thhjhhhgghjh</h1>
-    <p class="article">
-        <img class="thumb-min" src="#" />
-        Description of posts
-    </p>
-    <code>
-        public void Main ();
-    </code>
-</article>
-
+                {{content}}
                 <nav>
                     <ul class="pager">
                         <li class="previous"><a href="#">Antigos</a></li>
