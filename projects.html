@@ -1,4 +1,18 @@
 ---
 layout: head
 ---
-<h1>Projects</h1>
+{% for post in site.posts %}
+<article>
+    <h1 class="post-title">{{post.title}}</h1>
+    <p class="article">
+        <img class="thumb-min" />
+        {{post.excerpt | remove: '<p>' | remove: '</p>' }}
+    </p>
+    {{# each platform in post.platforms}}
+    <a href="#">aa{{platform}}</a>
+    {{/ endfor }}
+    <code>
+        public void Main ();
+    </code>
+</article>
+{% endfor %}

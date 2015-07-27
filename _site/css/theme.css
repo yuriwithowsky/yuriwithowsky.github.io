@@ -11,7 +11,7 @@
     font-size: 18px;
 }
 
-.author-photo
+a.author-photo
 {
     display: block;
     background-color: #EEE;
@@ -19,6 +19,13 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    overflow: hidden;
+}
+
+a.author-photo img
+{
+    width: 200px;
+    height: 200px;
 }
 
 .box-social
@@ -111,11 +118,13 @@ p.article:first-of-type:first-letter
 .thumb-min
 {
     background-color: #EEE;
+    border-radius: 5px;
     width: 250px;
     height: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
+    overflow: hidden;
 }
 
 b
