@@ -4,14 +4,17 @@ layout: head
 {% for post in site.posts %}
 <article>
     <h1 class="post-title">{{post.title}}</h1>
-    <p class="article">
+    <div class="article-photo">
         <img class="thumb-min" />
+    </div>
+    <div class="article-content">
+        <p class="article">
         {{post.excerpt | remove: '<p>' | remove: '</p>' }}
-    </p>
-<span>Platforms</span>
-<div class="platform-win"></div>
-    <code>
-        public void Main ();
-    </code>
+        </p>
+        <span class="article-title">Platforms</span>
+        {% for tag in post.tags %}
+        <div class="platform {{tag}}"></div>
+        {% endfor %}
+    </div>
 </article>
 {% endfor %}
