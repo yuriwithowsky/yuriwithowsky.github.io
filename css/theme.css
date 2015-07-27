@@ -118,11 +118,13 @@ p.article:first-of-type:first-letter
 .thumb-min
 {
     background-color: #EEE;
+    border-radius: 5px;
     width: 250px;
     height: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
+    overflow: hidden;
 }
 
 b
