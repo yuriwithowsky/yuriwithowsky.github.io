@@ -71,11 +71,11 @@ h1.post-title
 .article-photo
 {
     background-color: #EEE;
-    border-radius: 300px;
+    border-radius: 3px;
     width: 250px;
     height: 250px;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     float: left;
     overflow: hidden;
 }
@@ -87,7 +87,7 @@ h1.post-title
 
 p.article, p.article-no
 {
-    font-family: 'Georgia';
+    font-family: 'Cambria';
     font-size: 18px;
     float: left;
     width: 100%;
@@ -99,15 +99,17 @@ p.article:first-of-type:first-letter
 {
     margin-left: 10px;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .article-title
 {
+    font-family: 'Cambria';
     float: left;
+    font-weight: bold;
     width: 100%;
     margin: 5px 0;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .platform
@@ -198,13 +200,14 @@ ul.pager a
     border-bottom: 1px solid #EEE;
 }
 
-@media (max-width: 768px)
+@media (max-width: 750px)
 {
     .article-photo
     {
-        width: 250px;
+        width: 100%;
         height: 250px;
         margin: 0 auto;
+        margin-bottom: 10px;
         float: none;
     }
     
@@ -219,5 +222,37 @@ ul.pager a
         margin: 0 0 20px 0;
         font-size: 24px;
         text-align: center;
+    }
+    
+    .article-title
+    {
+        text-align: center;
+    }
+    
+    .article-platforms
+    {
+        width: 80px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px)
+{
+    .article-photo
+    {
+        width: 100%;
+        float: left;
+    }
+    
+    p.article
+    {
+        max-width: 100%;
+        float: left;
+    }
+    
+    .container
+    {
+        padding: 0 8%;
+        
     }
 }
