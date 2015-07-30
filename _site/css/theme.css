@@ -231,22 +231,29 @@ ul.pager a
     
     .article-platforms
     {
-        width: 80px;
+        width: 60px;
         margin: 0 auto;
     }
 }
 
-@media (max-width: 992px)
+@media (min-width: 992px)
 {
     .article-photo
     {
-        width: 100%;
+        width: 50%;
+        margin: 0;
         float: left;
     }
     
     p.article
     {
         max-width: 100%;
+    }
+    
+    .article-content
+    {
+        width: 50%;
+        padding: 0 15px;
         float: left;
     }
     
