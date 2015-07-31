@@ -16,9 +16,9 @@ social:
       url: https://www.linkedin.com/in/YuriWithowsky
     
 navigation:
-    - title: home
+    - title: Projects
       url: /index.html
-    - title: contact
+    - title: Contact me
       url: /contact.html
       
 # Build settings
