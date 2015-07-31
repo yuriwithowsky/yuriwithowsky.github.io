@@ -7,7 +7,9 @@ url: "http://yuriwithowsky.github.io"
 # Author settings
 social:
     - title: facebook
-      url: www.tis.com
+      url: www.facebook.com/YuriWitkowsky
+    - title: github
+      url: www.github.com
     
 # Build settings
 markdown: kramdown
