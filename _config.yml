@@ -7,13 +7,13 @@ url: "http://yuriwithowsky.github.io"
 # Author settings
 social:
     - title: facebook
-      url: www.facebook.com/YuriWitkowsky
+      url: https://www.facebook.com/YuriWitkowsky
     - title: github
-      url: www.github.com
+      url: http://www.github.com/yuriwithowsky
     - title: behance
-      url: www.behance.net
+      url: http://www.behance.net/YuriWithowsky
     - title: linkedin
-      url: www.linkedin.com
+      url: http://www.linkedin.com/in/YuriWithowsky
     
 # Build settings
 markdown: kramdown
