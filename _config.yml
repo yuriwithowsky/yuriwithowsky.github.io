@@ -9,11 +9,11 @@ social:
     - title: facebook
       url: https://www.facebook.com/YuriWitkowsky
     - title: github
-      url: http://www.github.com/yuriwithowsky
+      url: https://www.github.com/yuriwithowsky
     - title: behance
-      url: http://www.behance.net/YuriWithowsky
+      url: https://www.behance.net/YuriWithowsky
     - title: linkedin
-      url: http://www.linkedin.com/in/YuriWithowsky
+      url: https://www.linkedin.com/in/YuriWithowsky
     
 # Build settings
 markdown: kramdown
