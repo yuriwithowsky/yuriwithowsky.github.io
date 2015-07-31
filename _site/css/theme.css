@@ -131,7 +131,6 @@ p.article:first-of-type:first-letter
 
 .container-nav
 {
-    border-bottom: 1px solid #EEE;
     font-family: 'Georgia';
     font-size: 16px;
     width: 100%;
@@ -142,21 +141,24 @@ p.article:first-of-type:first-letter
 .container-nav ul.nav-links
 {
     list-style: none;
-    width: 210px;
-    margin: 0 auto;
-    padding: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #EEE;
 }
 
 .container-nav ul.nav-links li
 {
+    display: inline;
     padding: 10px 16px;
     margin: 0 2px;
-    float: left;
     border-bottom: 2px solid #FFF;
 }
 
 .container-nav .nav-links a
 {
+    text-decoration: none;
+    display: inline-block;
     color: #333;
 }
 
