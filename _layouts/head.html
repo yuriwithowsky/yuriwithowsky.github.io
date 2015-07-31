@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <title>{{site.title}}</title>
     <meta name="description" content="{{site.description}}">
-    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="{{site.url}}/css/theme.css">
 </head>
     
 <body>
@@ -33,15 +33,9 @@
                     <ul class="nav-links">
                         {% for nav in site.navigation %}
                         <a href="{{nav.url}}">
-                            <li class="{% if page.url == '{{nav.url}}' %}current{% endif %}">{{nav.title}}</li>
+                            <li class="{% if page.url == {{nav.url}} %}current{% endif %}">{{nav.title}}</li>
                         </a>
                         {% endfor %}
-                        <a href="{{site.url}}/index.html">
-                            <li class="{% if page.url == '/index.html' %}current{% endif %}">Projects</li>
-                        </a>
-                        <a href="{{site.url}}/contact.html">
-                            <li class="{% if page.url == '/contact.html' %}current{% endif %}">Contact me</li>
-                        </a>
                     </ul>
                 </div>
                 {{content}}
