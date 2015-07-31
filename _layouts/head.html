@@ -22,23 +22,10 @@
                 </a>
                 <div class="box-social">
                     {% for network in site.social %}
-                    <a class="social-links" target="_blank" href="{{ network.url }}">
+                    <a class="social-link" target="_blank" href="{{ network.url }}">
                         <img src="{{site.url}}/img/{{network.title}}.png" />
                     </a>
-                       
-                        {% endfor %}
-                    <a class="social-link" target="_blank" href="https://www.facebook.com/{{site.url}}">
-                        <img src="{{site.url}}/img/facebbook.png" />
-                    </a>
-                    <a class="social-link" target="_blank" href="https://br.linkedin.com/in/yuriwithowsky">
-                        <img src="{{site.url}}/img/linkedin.png" />
-                    </a>
-                    <a class="social-link" target="_blank" href="https://www.behance.net/YuriWithowsky">
-                        <img src="{{site.url}}/img/behance.png" />
-                    </a>
-                    <a class="social-link" target="_blank" href="https://github.com/yuriwithowsky">
-                        <img src="../img/github.png" />
-                    </a>
+                    {% endfor %}
                 </div>
             </div>
             <div class="col-md-8">
