@@ -3,6 +3,7 @@ title: First Post
 meta: First Post
 category: my
 tags: ['windows', 'linux']
+image: first-post.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod elit a efficitur efficitur. Nunc nisi nisl, porta non nulla et, pellentesque bibendum lectus...
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod elit a efficitur efficitur. Nunc nisi nisl, porta non nulla et, pellentesque bibendum lectus.

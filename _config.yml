@@ -4,5 +4,10 @@ email: yuriwithowsky@outlook.com
 baseurl: "/"
 url: "http://yuriwithowsky.github.io"
 
+# Author settings
+social:
+    - title: facebook
+      url: www.tis.com
+    
 # Build settings
 markdown: kramdown
