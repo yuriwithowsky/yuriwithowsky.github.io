@@ -72,16 +72,15 @@ h1.post-title
 {
     background-color: #EEE;
     border-radius: 3px;
-    width: 250px;
-    height: 250px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: 45%;
+    margin: 0;
     float: left;
-    overflow: hidden;
 }
 
 .article-content
 {
+    width: 55%;
+    padding-left: 15px;
     float: left;
 }
 
@@ -91,7 +90,6 @@ p.article, p.article-no
     font-size: 18px;
     float: left;
     width: 100%;
-    max-width: 352px;
     text-align: justify;
 }
 
@@ -206,15 +204,22 @@ ul.pager a
     .article-photo
     {
         width: 100%;
-        height: 250px;
-        margin: 0 auto;
+        height: auto;
         margin-bottom: 10px;
-        float: none;
+        float: left;
+    }
+    
+    .article-content
+    {
+        width: 100%;
+        padding: 0;
+        float: left
     }
     
     p.article
     {
         max-width: 100%;
+        padding: 0;
     }
     
     h1.post-title
@@ -234,33 +239,5 @@ ul.pager a
     {
         width: 60px;
         margin: 0 auto;
-    }
-}
-
-@media (min-width: 992px)
-{
-    .article-photo
-    {
-        width: 50%;
-        margin: 0;
-        float: left;
-    }
-    
-    p.article
-    {
-        max-width: 100%;
-    }
-    
-    .article-content
-    {
-        width: 50%;
-        padding-left: 15px;
-        float: left;
-    }
-    
-    .container
-    {
-        padding: 0 8%;
-        
     }
 }
