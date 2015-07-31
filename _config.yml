@@ -1,12 +1,12 @@
 # Site settings
 title: Yuri Withowsky
 email: yuriwithowsky@outlook.com
-baseurl: "/"
+baseurl:
 url: "http://yuriwithowsky.github.io"
 
 # Author settings
 social:
-    - title: facebbook
+    - title: facebook
       url: https://www.facebook.com/YuriWitkowsky
     - title: github
       url: https://www.github.com/yuriwithowsky
@@ -15,5 +15,11 @@ social:
     - title: linkedin
       url: https://www.linkedin.com/in/YuriWithowsky
     
+navigation:
+    - title: home
+      url: /index.html
+    - title: contact
+      url: /contact.html
+      
 # Build settings
 markdown: kramdown
