@@ -10,6 +10,10 @@ social:
       url: www.facebook.com/YuriWitkowsky
     - title: github
       url: www.github.com
+    - title: behance
+      url: www.behance.net
+    - title: linkedin
+      url: www.linkedin.com
     
 # Build settings
 markdown: kramdown
