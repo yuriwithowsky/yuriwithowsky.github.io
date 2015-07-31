@@ -154,12 +154,12 @@ p.article:first-of-type:first-letter
     padding: 10px 16px;
     margin: 0 2px;
     float: left;
+    border-bottom: 2px solid #FFF;
 }
 
 .container-nav .nav-links a
 {
     color: #333;
-    border-bottom: 2px solid #FFF;
 }
 
 .container-nav ul.nav-links a:hover li
