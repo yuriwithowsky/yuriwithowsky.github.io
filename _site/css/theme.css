@@ -6,6 +6,7 @@ a
 .container
 {
     margin-top: 25px;
+    padding: 0 5%;
 }
 
 .author-title
@@ -203,6 +204,11 @@ ul.pager a
 
 @media (max-width: 750px)
 {
+    .container
+    {
+        padding: 0 15px;
+    }
+    
     .article-photo
     {
         width: 100%;
