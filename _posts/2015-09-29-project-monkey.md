@@ -1,9 +1,9 @@
 ---
 layout: head
 title: Projeto Macaco
-meta: First Post
-tags: ['windows', 'linux']
-image: first-post.jpg
+meta: project monkey, projeto macaco, game development, work, game, unity
+tags: ['windows']
+image: project-monkey.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod elit a efficitur efficitur. Nunc nisi nisl, porta non nulla et, pellentesque bibendum lectus.
+Um jogo 3D em terceira pessoa, do gênero puzzle e aventura, onde o personagem principal (Frank), busca socorrer sua namorada (Lisa) das garras do vilão Gorila.
