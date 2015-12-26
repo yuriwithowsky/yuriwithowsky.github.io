@@ -10,6 +10,6 @@ Um jogo 3D em terceira pessoa, do gênero puzzle e aventura, onde o personagem p
 
 ![Custom](http://yuriwithowsky.github.io/img/posts/ezgif.com-resize.gif)
 
-<video width="320" height="240" controls>
-  <source src="videos/CustomScene.mp4" type="video/mp4">
+<video width="320" height="250" controls>
+  <source src="http://yuriwithowsky.github.io/video/CustomScene.mp4" type="video/mp4">
 </video>
