@@ -1,6 +1,8 @@
-a
+a, a:hover
 {
     border: none;
+    color:#333;
+    text-decoration: none;
 }
 
 img 
@@ -72,13 +74,6 @@ h1.post-title
     font-family:'Cambria';
     margin: 0 0 20px 0;
     font-size: 24px;
-}
-
-h1.post-title a,
-article-content a
-{
-    color:#333;
-    text-decoration: none;
 }
 
 .article-photo
