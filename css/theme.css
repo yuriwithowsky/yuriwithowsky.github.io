@@ -75,8 +75,7 @@ h1.post-title
 }
 
 .post-title a,
-article-content a,
-p a
+p.article a
 {
     color:#333;
     text-decoration: none;
