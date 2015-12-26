@@ -4,13 +4,12 @@ layout: head
 {% for post in site.posts %}
 <article>
     <a href="{{post.url}}">
-        <h1 class="post-title">{{post.title}}</h1>
         <div class="article-photo">
             <img class="thumb-min" src="img/posts/{{post.image}}" />
         </div>
         <div class="article-content">
             <p class="article">
-            {{post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 20}}
+            {{post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 30}}
             </p>
             <span class="article-title">Platforms</span>
             <div class="article-platforms">
