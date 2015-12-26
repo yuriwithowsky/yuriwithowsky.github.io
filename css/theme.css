@@ -69,7 +69,7 @@ a.author-photo img
     height: 34px;
 }
 
-h1.post-title
+h1.post-title, article-content h1
 {
     font-family:'Cambria';
     margin: 0 0 20px 0;
