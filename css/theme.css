@@ -74,8 +74,8 @@ h1.post-title
     font-size: 24px;
 }
 
-.post-title a,
-p.article a
+a:p.article,
+a:h1.post-title
 {
     color:#333;
     text-decoration: none;
