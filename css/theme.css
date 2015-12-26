@@ -1,6 +1,8 @@
 a
 {
     border: none;
+    color:#333;
+    text-decoration: none;
 }
 
 img 
@@ -97,12 +99,6 @@ p.article, p.article-no
     float: left;
     width: 100%;
     text-align: justify;
-}
-
-p.article a
-{
-    color:#333;
-    text-decoration: none;
 }
 
 p.article:first-of-type:first-letter
