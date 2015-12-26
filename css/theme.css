@@ -74,13 +74,6 @@ h1.post-title
     font-size: 24px;
 }
 
-a:p.article,
-a:h1.post-title
-{
-    color:#333;
-    text-decoration: none;
-}
-
 .article-photo
 {
     background-color: #EEE;
@@ -104,6 +97,12 @@ p.article, p.article-no
     float: left;
     width: 100%;
     text-align: justify;
+}
+
+p.article a
+{
+    color:#333;
+    text-decoration: none;
 }
 
 p.article:first-of-type:first-letter
