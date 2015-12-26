@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <title>{{site.title}}</title>
+    <meta name="description" content="{{site.description}}">
+    <link rel="stylesheet" href="{{site.url}}/css/theme.css">
+</head>
+    
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="author-title"><b>Yuri Withowsky</b> game developer</span>
+                <a href="{{site.url}}" class="author-photo">
+                    <img src="{{site.url}}/img/picture.jpg" />
+                </a>
+                <div class="box-social">
+                    {% for network in site.social %}
+                    <a class="social-link" target="_blank" href="{{network.url}}">
+                        <img src="{{site.url}}/img/{{network.title}}.png" />
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container-nav">
+                    <ul class="nav-links">
+                        {% for nav in site.navigation %}
+                        <a href="{{nav.url}}">
+                            <li class="{% if page.url == {{nav.url}} %}current{% endif %}">{{nav.title}}</li>
+                        </a>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {{content}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
