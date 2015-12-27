@@ -58,6 +58,14 @@ a.author-photo img
     float: left;
 }
 
+figure {
+    margin: 0 auto;
+    padding: 0;
+    width: 320px;
+    display: block;
+    text-align: center;
+}
+
 .box-social a.social-link:hover
 {
     opacity: 0.9;
@@ -244,11 +252,13 @@ ul.pager a
     
     p.article
     {
+        font-family: 'Cambria';
         max-width: 100%;
         padding: 0;
     }
     
-    h1.post-title
+    h1.post-title,
+    .article h1
     {
         font-family:'Cambria';
         margin: 0 0 20px 0;
