@@ -8,7 +8,7 @@ image: project-monkey.png
 
 # Projeto Macaco #
 
-<p>Projeto Macaco foi um trabalho acadêmico desenvolvido em pouco mais de 2 meses, inspirado em Crash Bandicoot de gênero Aventura e Puzzle.<br>
+<p>Projeto Macaco foi um trabalho acadêmico desenvolvido em 60 dias, inspirado em Crash Bandicoot de gênero Aventura e Puzzle.<br>
 
 Fui responsável pelo planejamento, arte, animação do personagem principal e toda a programação do jogo.<br>
 
