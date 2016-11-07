@@ -66,6 +66,12 @@ figure {
     text-align: center;
 }
 
+.platform-title {
+    padding-top: 5px;
+    float: left;
+    text-transform: capitalize;
+}
+
 .box-social a.social-link:hover
 {
     opacity: 0.9;
