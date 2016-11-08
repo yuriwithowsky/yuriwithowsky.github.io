@@ -2,7 +2,6 @@
 layout: post
 title: Projeto Macaco
 meta: project monkey, projeto macaco, game development, work, game, unity
-tags: ['windows']
 platforms: ['windows', 'linux']
 image: project-monkey.png
 ---
