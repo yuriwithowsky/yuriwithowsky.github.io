@@ -269,6 +269,12 @@ div#mini-article {
     float: left;
 }
 
+div#divider {
+    width: 2%;
+    float: left;
+    height: 100px;
+}
+
 span.mini-article-title {
     position: absolute;
     width: 150px;
