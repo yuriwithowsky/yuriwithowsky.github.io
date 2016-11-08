@@ -16,7 +16,7 @@ image: project-monkey.png
 
 Abaixo listei algumas características e vídeos demonstrando um pouco do jogo.<br><br>
 
-Há uma demo do jogo no meu Itch.io, <a href="https://yuriwithowsky.itch.io">acesse</a>.<br><br>
+Há uma demo do jogo no meu Itch.io, <a href="https://yuriwithowsky.itch.io" target="_blank">acesse</a>.<br><br>
 
 <b>Características</b><br>
 Sistema de Save<br>
