@@ -73,4 +73,3 @@ Customização do personagem<br>
     </video>
   <figcaption>Fase 3 (final boss) Part 3</figcaption>
 </figure>
-</p>
