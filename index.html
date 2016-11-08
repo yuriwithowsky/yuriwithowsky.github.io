@@ -9,7 +9,7 @@ layout: head
         </div>
         <div class="article-content">
             <p class="article">
-            {{post.content}}
+            {{post.content | remove: '<p>' | remove: '</p>' | truncatewords: 30}}
             Ler Mais
             </p>
             <span class="article-title">Platforms</span>
