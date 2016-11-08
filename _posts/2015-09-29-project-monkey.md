@@ -36,7 +36,7 @@ Customização do personagem<br>
     <video width="320" height="250" style="float:left;margin: 8px 10px 0 0" controls>
       <source src="http://yuriwithowsky.github.io/video/CustomScene.mp4" type="video/mp4">
     </video>
-      <figcaption>Costumização do Personagem</figcaption>
+      <figcaption>Customização do Personagem</figcaption>
 </figure>
 
 <figure>
