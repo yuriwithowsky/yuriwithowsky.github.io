@@ -14,7 +14,7 @@ Fui responsável pelo planejamento, arte, animação do personagem principal e t
 
 Abaixo listei algumas características e vídeos demonstrando um pouco do jogo.<br><br>
 
-<b>Características</b>
+**Características**
 Sistema de Save<br>
 Coletar e quebrar coisas<br>
 Exploração<br>
