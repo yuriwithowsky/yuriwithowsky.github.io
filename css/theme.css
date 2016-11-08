@@ -133,6 +133,11 @@ p.article:first-of-type:first-letter,
     text-decoration: underline;
 }
 
+.article h1
+{
+    margin-top: 10px;
+}
+
 .article-title
 {
     font-family: 'Cambria';
