@@ -66,12 +66,6 @@ figure {
     text-align: center;
 }
 
-.platform-title {
-    padding-top: 5px;
-    float: left;
-    text-transform: capitalize;
-}
-
 .box-social a.social-link:hover
 {
     opacity: 0.9;
@@ -150,12 +144,20 @@ p.article:first-of-type:first-letter,
 
 .platform
 {
+    background-repeat: no-repeat;
     opacity: 0.7;
     float: left;
-    width: 24px;
+    width: 100px;
     height: 24px;
     margin: 3px;
 }
+
+.platform-title {
+    padding: 2px 28px 0;
+    float: left;
+    text-transform: capitalize;
+}
+
 
 .linux
 {
