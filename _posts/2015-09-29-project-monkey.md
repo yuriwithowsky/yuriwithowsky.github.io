@@ -3,12 +3,13 @@ layout: post
 title: Projeto Macaco
 meta: project monkey, projeto macaco, game development, work, game, unity
 platforms: ['windows', 'linux']
+released: 2015
 image: project-monkey.png
 ---
 
 # Projeto Macaco #
 
-<p>Projeto Macaco foi um trabalho acadêmico desenvolvido em pouco mais de 60 dias, inspirado em Crash Bandicoot de gênero Puzzle e Aventura, o jogo se passa em tempos atuais onde (Frank) um macaco bem atrapalhado vê sua namorada (Lisa) ser raptada pelo seu maior inimigo, o Gorila, Lisa é levada para o topo da maior montanha de Gruthan Island onde vive.</p>
+<p>O jogo foi um trabalho acadêmico desenvolvido em pouco mais de 60 dias, inspirado em Crash Bandicoot de gênero Puzzle e Aventura, o jogo se passa em tempos atuais onde (Frank) um macaco bem atrapalhado vê sua namorada (Lisa) ser raptada pelo seu maior inimigo, o Gorila, Lisa é levada para o topo da maior montanha de Gruthan Island onde vive o Gorila.</p>
 
 <p>Fui responsável pelo roteiro, arte e animação do personagem principal e programação da mecânica de jogo.</p>
 
