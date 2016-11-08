@@ -16,8 +16,9 @@ O jogo contém 3 fases jogáveis e uma loja para personalização do personagem,
 
 Abaixo listei algumas características e vídeos demonstrando um pouco do jogo.<br><br>
 
-Há uma demo do jogo no meu Itch.io, [acesse][MyIchIO]
-**Características**
+Há uma demo do jogo no meu Itch.io, <a href="https://yuriwithowsky.itch.io">acesse</a>.
+
+<b>Características</b>
 Sistema de Save<br>
 Coletar e quebrar coisas<br>
 Exploração<br>
@@ -73,5 +74,3 @@ Customização do personagem<br>
   <figcaption>Fase 3 (final boss) Part 3</figcaption>
 </figure>
 </p>
-
-[MyItchIO] <https://yuriwithowsky.itch.io>
