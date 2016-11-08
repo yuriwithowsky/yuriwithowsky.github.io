@@ -15,8 +15,9 @@ layout: head
             <span class="article-title">Platforms</span>
             <div class="article-platforms">
                 {% for tag in post.tags %}
-                <div class="platform {{tag}}"></div>
-                <span class="platform-title">{{tag}}</span>
+                <div class="platform {{tag}}">
+                    <span class="platform-title">{{tag}}</span>
+                </div>
                 {% endfor %}
             </div>
         </div>
