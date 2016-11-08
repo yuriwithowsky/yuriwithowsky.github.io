@@ -272,7 +272,7 @@ div#mini-article {
 div#divider {
     width: 2%;
     float: left;
-    height: 100px;
+    height: 10px;
 }
 
 span.mini-article-title {
@@ -331,5 +331,15 @@ span.mini-article-title {
     {
         width: 60px;
         margin: 0 auto;
+    }
+    
+    .article-picture
+    {
+        width: 100%;
+    }
+    
+    .mini-article
+    {
+        width: 100%;
     }
 }
