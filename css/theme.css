@@ -84,6 +84,14 @@ h1.post-title, .article-content h1
     font-size: 24px;
 }
 
+.article-content h1
+{
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    color: #222;
+    font-weight: bold;
+}
+
 .article-photo
 {
     background-color: #EEE;
@@ -98,6 +106,10 @@ h1.post-title, .article-content h1
     width: 55%;
     padding-left: 15px;
     float: left;
+    font-family: 'Cambria';
+    color: #444;
+    font-size: 18px;
+    text-align: justify;
 }
 
 p.article, p.article-no, .article
