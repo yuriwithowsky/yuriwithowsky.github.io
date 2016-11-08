@@ -333,6 +333,19 @@ span.mini-article-title {
     {
         width: 60px;
         margin: 0 auto;
+        display: table;
+    }
+    
+    .platform
+    {
+        background-position: center top;
+    }
+    
+    span.platform-title
+    {
+        padding: 28px 0 0;
+        width:100%;
+        text-align: center;
     }
     
     .article-picture
