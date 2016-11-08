@@ -318,7 +318,7 @@ span.mini-article-title {
     {
         font-family:'Cambria';
         margin: 0 0 20px 0;
-        font-size: 24px;
+        font-size: 34px;
         text-align: center;
     }
     
@@ -336,9 +336,10 @@ span.mini-article-title {
     .article-picture
     {
         width: 100%;
+        margin: 10px 0 15px;
     }
     
-    .mini-article
+    div#mini-article
     {
         width: 100%;
     }
