@@ -51,9 +51,9 @@ a.author-photo
     display: block;
     background-color: #EEE;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+    width: 220px;
+    height: 220px;
+    border-radius: 220px;
     overflow: hidden;
 }
 
