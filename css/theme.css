@@ -331,10 +331,12 @@ span.mini-article-title {
         position: relative;
         border-right: 0;
         padding-top: 0;
+        width: 100%;
     }
     
     .content {
         margin-left: 0;
+        width: 100%;
     }
     
     .article-photo
