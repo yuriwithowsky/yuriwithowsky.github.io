@@ -303,6 +303,7 @@ div#mini-article {
     margin: 0;
     padding: 0;
     float: left;
+    overflow: hidden;
 }
 
 div#mini-article img {
