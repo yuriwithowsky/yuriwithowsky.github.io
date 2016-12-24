@@ -344,9 +344,9 @@ div#divider {
 }
 
 span.mini-article-title {
-    position: absolute;
-    /* width: 200px; */
-    /* text-align: center; */
+position: absolute;
+    width: 90%;
+    text-align: center;
     color: white;
     /* font-size: 28px; */
     text-shadow: 0 0 10px rgba(0, 0, 0, .4);
@@ -441,6 +441,7 @@ span.mini-article-title {
     
     .article-picture img {
         width: 100%;
+        height: auto;
         top: 50%;
         left: 0;
         transform: translate(0%, -50%);
