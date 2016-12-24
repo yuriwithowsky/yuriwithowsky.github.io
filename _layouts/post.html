@@ -48,10 +48,10 @@
         </div>
         <div id="footer-article">
           {% for ps in site.posts %}
-          <div id="mini-article">
+          <a href="{{ps.url}}"><div id="mini-article">
               <img src="{{site.url}}/img/posts/{{ps.image}}" />
-              <a href="{{ps.url}}"><span class="mini-article-title">{{ps.title}}</span></a>
-          </div><div id="divider"></div>
+              <span class="mini-article-title">{{ps.title}}</span>
+          </div><div id="divider"></div></a>
           {% endfor %}
         </div>
     </div>
