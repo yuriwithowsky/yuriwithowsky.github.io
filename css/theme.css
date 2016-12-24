@@ -305,6 +305,14 @@ div#mini-article {
     float: left;
 }
 
+div#mini-article img {
+    width: 100%;
+    margin-top: -20%;
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+
 div#divider {
     width: 2%;
     float: left;
@@ -313,11 +321,15 @@ div#divider {
 
 span.mini-article-title {
     position: absolute;
-    width: 150px;
-    text-align: center;
+    /* width: 200px; */
+    /* text-align: center; */
+    color: white;
+    /* font-size: 28px; */
+    text-shadow: 0 0 10px rgba(0, 0, 0, .4);
     top: 50%;
-    left: calc(50% - 75px);
-    font-size: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
 }
 
 @media (max-width: 992px)
