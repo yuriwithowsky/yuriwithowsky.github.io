@@ -320,7 +320,7 @@ span.mini-article-title {
     font-size: 18px;
 }
 
-@media (max-width: 750px)
+@media (max-width: 992px)
 {
     .container
     {
