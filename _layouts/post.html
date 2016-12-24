@@ -45,14 +45,11 @@
             </div>
         </div>
         <div id="footer-article">
-            {% for ps in site.posts %}
+          {% for ps in site.posts %}
           <div id="mini-article">
-            <span class="mini-article-title">{{ps.title}}</span>
+              <a href="{{ps.url}}"><span class="mini-article-title">{{ps.title}}</span></a>
           </div><div id="divider"></div>
-            {% endfor %}
-          <div id="mini-article">
-            <span class="mini-article-title">Article 2</span>
-          </div>
+          {% endfor %}
         </div>
     </div>
 </body>
