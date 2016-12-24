@@ -203,6 +203,11 @@ p.article:first-of-type:first-letter,
     background-image: url('../img/windows.png');
 }
 
+.android
+{
+    background-image: url('../img/android.png');
+}
+
 .container-nav
 {
     font-family: 'Georgia';
@@ -280,6 +285,14 @@ article
     margin-bottom: 10px;
     margin-right: 20px;
     margin-top: 10px;
+}
+
+.article-picture img {
+    height: 310px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 0;
+    position: relative;
 }
 
 ul.pager a
@@ -422,6 +435,13 @@ span.mini-article-title {
     {
         width: 100%;
         margin: 10px 0 15px;
+    }
+    
+    .article-picture img {
+        width: 100%;
+        top: 50%;
+        left: 0;
+        transform: translate(0%, -50%);
     }
     
     div#mini-article
