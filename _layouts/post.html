@@ -47,6 +47,7 @@
         <div id="footer-article">
           {% for ps in site.posts %}
           <div id="mini-article">
+              <img src="{{ps.image}}" />
               <a href="{{ps.url}}"><span class="mini-article-title">{{ps.title}}</span></a>
           </div><div id="divider"></div>
           {% endfor %}
