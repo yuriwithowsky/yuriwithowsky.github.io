@@ -429,3 +429,9 @@ span.mini-article-title {
         width: 100%;
     }
 }
+@media (max-width: 568px)
+{
+    div#mini-article {
+        height: 210px;
+    }
+}
