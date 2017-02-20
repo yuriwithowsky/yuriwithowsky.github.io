@@ -116,6 +116,7 @@ h1.post-title, .article-content h1
 
 .article-photo
 {
+    position: relative;
     background-color: #EEE;
     border-radius: 3px;
     width: 45%;
