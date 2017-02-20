@@ -277,6 +277,7 @@ article
 
 .article-picture
 {
+    position: relative;
     background-color: #EEE;
     width: 100%;
     width: 320px;
