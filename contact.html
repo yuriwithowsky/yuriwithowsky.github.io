@@ -6,4 +6,25 @@ layout: head
     <p class="article-no">
         <a href="mailto:yuriwithowsky@gmail.com" title="My Contact">yuriwithowsky@gmail.com</a>
     </p>
+    <form class="form-horizontal" action="mailto:yuriwithowsky@gmail.com" method="post" enctype="text/plain">
+        <div class="control-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form-control">
+        </div>
+        <div class="control-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="control-group">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject" class="form-control">
+        </div>
+        <div class="control-group">
+            <label for="message">Message:</label>
+            <input type="text" name="message" id="message" class="form-control">
+        </div>
+        <div class="control-group">
+            <input type="submit" value="Send" class="btn btn-primary">
+        </div>
+    </form>
 </article>

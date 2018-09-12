@@ -15,7 +15,7 @@ image: project-monkey.png
 
 <p>Fui responsável pelo roteiro, arte, animação do personagem principal e programação da mecânica de jogo.</p>
 
-</p>Abaixo listei algumas características e vídeos demonstrando um pouco do jogo.</p>
+<p>Abaixo listei algumas características e vídeos demonstrando um pouco do jogo.</p>
 
 
 <b>Características</b><br/>
