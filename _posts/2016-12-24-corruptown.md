@@ -47,10 +47,5 @@ image: corruptown.jpg
 
 <figure>
     <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-007.jpg" />
-    <figcaption>Apresentação do projeto para os jurados</figcaption>
-</figure>
-
-<figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-008.jpg" />
-    <figcaption>Apresentação do projeto para os jurados</figcaption>
+    <figcaption>Cerimônia de premiação dos 3 primeiros colocados</figcaption>
 </figure>
