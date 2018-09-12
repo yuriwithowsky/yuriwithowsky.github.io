@@ -16,7 +16,7 @@ image: corruptown.jpg
 <p>Fique responsável na programação da mecânicas do Sistema de Noticias e do minigame baseado em Tower Defense.</p>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/img/hackathon-001.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-001.jpg" />
     <figcaption>Apresentação do projeto para os jurados</figcaption>
 </figure>
 
