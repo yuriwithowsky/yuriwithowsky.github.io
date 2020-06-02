@@ -16,36 +16,36 @@ image: corruptown.jpg
 <p>Fique responsável na programação da mecânicas do Sistema de Noticias e do minigame baseado em Tower Defense.</p>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-001.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="https://yuriwithowsky.github.io/img/posts/hackathon-001.jpg" />
     <figcaption>Apresentação do projeto para os jurados</figcaption>
 </figure>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-002.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="https://yuriwithowsky.github.io/img/posts/hackathon-002.jpg" />
     <figcaption>Apresentação do projeto para os jurados</figcaption>
 </figure>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-003.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="https://yuriwithowsky.github.io/img/posts/hackathon-003.jpg" />
     <figcaption>Apresentação do projeto para os jurados</figcaption>
 </figure>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-004.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="https://yuriwithowsky.github.io/img/posts/hackathon-004.jpg" />
     <figcaption>Apresentação do projeto para os jurados</figcaption>
 </figure>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-005.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="https://yuriwithowsky.github.io/img/posts/hackathon-005.jpg" />
     <figcaption>Apresentação do projeto para os jurados</figcaption>
 </figure>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-006.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="https://yuriwithowsky.github.io/img/posts/hackathon-006.jpg" />
     <figcaption>Apresentação do projeto para os jurados</figcaption>
 </figure>
 
 <figure>
-    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="http://yuriwithowsky.github.io/img/posts/hackathon-007.jpg" />
+    <img width="320" height="250" style="float:left;margin: 8px 10px 0 0" src="https://yuriwithowsky.github.io/img/posts/hackathon-007.jpg" />
     <figcaption>Cerimônia de premiação dos 3 primeiros colocados</figcaption>
 </figure>
