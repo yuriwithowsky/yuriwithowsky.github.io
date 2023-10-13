@@ -9,19 +9,19 @@ layout: head
     <form class="form-horizontal" action="mailto:yuriwithowsky@gmail.com" method="post" enctype="text/plain">
         <div class="control-group">
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" class="form-control">
+            <input type="text" name="name" id="name" class="form-control" required />
         </div>
         <div class="control-group">
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" class="form-control">
+            <input type="email" name="email" id="email" class="form-control" required />
         </div>
         <div class="control-group">
             <label for="subject">Subject:</label>
-            <input type="text" name="subject" id="subject" class="form-control">
+            <input type="text" name="subject" id="subject" class="form-control" required/>
         </div>
         <div class="control-group">
             <label for="message">Message:</label>
-            <input type="text" name="message" id="message" class="form-control">
+            <textarea rows="4" name="message" id="message" class="form-control" required></textarea>
         </div>
         <div class="control-group">
             <input type="submit" value="Send" class="btn btn-primary">
