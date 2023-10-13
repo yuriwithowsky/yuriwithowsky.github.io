@@ -2,17 +2,17 @@
 title: Yuri Withowsky
 email: yuriwithowsky@outlook.com
 baseurl:
-url: "https://yuriwithowsky.github.io"
+url: "https://yuriwithowsky.com"
 encoding: "utf-8"
 
 # Author settings
 social:
-    - title: facebook
-      url: https://www.facebook.com/YuriWithowsky
+    - title: youtube
+      url: https://www.youtube.com/c/YuriWithowsky
     - title: github
       url: https://www.github.com/yuriwithowsky
-    - title: behance
-      url: https://www.behance.net/YuriWithowsky
+    - title: x
+      url: https://www.x.com/YuriWithowsky
     - title: linkedin
       url: https://www.linkedin.com/in/YuriWithowsky
     
