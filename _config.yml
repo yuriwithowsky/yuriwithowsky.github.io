@@ -1,19 +1,23 @@
 # Site settings
 title: Yuri Withowsky
-email: yuriwithowsky@outlook.com
+email: yuriwithowsky@gmail.com
 baseurl:
 url: "https://yuriwithowsky.com"
 encoding: "utf-8"
 
 # Author settings
 social:
-    - title: youtube
+    - title: Canal no YouTube
+      icon: youtube
       url: https://www.youtube.com/c/YuriWithowsky
-    - title: github
+    - title: Perfil no GitHub
+      icon: github
       url: https://www.github.com/yuriwithowsky
-    - title: x
+    - title: Perfil no X
+      icon: x
       url: https://www.x.com/YuriWithowsky
-    - title: linkedin
+    - title: Perfil no LinkedIn
+      icon: linkedin
       url: https://www.linkedin.com/in/YuriWithowsky
     
 navigation:
